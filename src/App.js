@@ -11,7 +11,11 @@ function App() {
         {/*inserisco ButtonComponent e ImageComponent in un TAG
           all'interno della funzione App
           per applicare la funzione/classe creata*/}
-        <ButtonComponent buttonText="Premi qui!" />
+        <ButtonComponent
+          buttonText="Premi qui!"
+          bgColor="red"
+          textcolor="yellow"
+        />
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
